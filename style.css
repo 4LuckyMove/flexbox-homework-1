@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navbar {
+    background: #70c7a7;
+    max-height: 169px;
+}
+
+.navbar .container {
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .item {
+    height: 129px;
+    background: #c4c4c4;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 14px;
+    margin-right: 16px;
+}
+
+.navbar .item:nth-of-type(1) {
+    flex-basis: 273px;
+    margin-right: 0;
+}
+
+.navbar .item:nth-of-type(2) {
+    flex-basis: 468px;
+    margin-left: 31px;
+    margin-right: 0;
+}
+
+.navbar .item:nth-of-type(3) {
+    flex-basis: 218px;
+    margin-left: 120px;
+}
+
+.content {
+    height: 1200px;
+    margin-top: 13px;
+    margin-bottom: 14px;
+}
+
+.content .container {
+    width: 100%;
+    height: 100%;
+}
+
+.content .body-item {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .big-item {
+    height: 100%;
+    background: #caffcf;
+
+}
+
+.content .big-item > * {
+    margin-top: 17px;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.content .big-item:nth-of-type(1) {
+    flex-basis: 800px;
+}
+
+.content .big-item:nth-of-type(2) {
+    flex-basis: 320px;
+}
+
+.content .body-item-1 {
+    height: 236px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.content .nested-item-1 {
+    flex-basis: 772px;
+    background: #ff8686;
+}
+
+.content .body-item-2 {
+    height: 236px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.content .nested-item-2 {
+    flex-basis: 379px;
+    background: #ff8686;
+}
+
+.content .srtip-item-3 {
+    margin-top: 84px;
+    background: #000;
+    width: 772px;
+    height: 2px;
+}
+
+.content .body-item-4 {
+    height: 40px;
+    margin-top: 14px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.content .nested-small-item-4 {
+    background: #86a8ff;
+    flex-basis: 290px;
+    
+}
+
+.content .body-item-5 {
+    height: 186px;
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .nested-item-5 {
+    background: #ff8686;
+    flex-basis: 245px;
+}
+
+.content .body-item-6 {
+    height: 186px;
+    margin-top: 18px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .nested-item-6 {
+    background: #ff8686;
+    flex-basis: 245px;
+}
+
+.content .small-body-item-1 {
+    height: 155px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .small-nested-item-1 {
+    background: #ff8686;
+    flex-basis: 290px;
+}
+
+.content .small-body-item-2 {
+    height: 90px;
+    margin-top: 13px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .small-nested-item-2 {
+    background: #c4c4c4;
+    flex-basis: 90px;
+}
+
+.content .small-body-item-3 {
+    height: 90px;
+    margin-top: 7px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .small-nested-item-3 {
+    background: #c4c4c4;
+    flex-basis: 90px;
+}
+
+.content .small-srtip-item-4 {
+    margin-top: 13px;
+    background: #000;
+    width: 290px;
+    height: 2px;
+}
+
+.footer {
+    height: 169px;
+    background: #70c7a7;
+    padding-top: 14px;
+}
+
+.footer .body-big-item {
+    height: 46px;
+
+    display: flex;
+    justify-content: center;
+}
+.footer .footer-big-item {
+    background: #a6fffa;
+    flex-basis: 772px;
+}
+
+.footer .body-small-item {
+    height: 40px;
+    margin-top: 11px;
+
+
+    display: flex;
+    justify-content: center;
+}
+
+.footer .footer-small-item {
+    background: #f1f381;
+    margin-left: 7px;
+    margin-right: 7px;
+    flex-basis: 40px;
+}
+
+.footer .body-medium-item {
+    height: 25px;
+    margin-top: 11px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.footer .footer-medium-item {
+    background: #a6fffa;
+    flex-basis: 378px;
+}
